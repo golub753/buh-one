@@ -1,0 +1,5 @@
+.header_links {
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 22px;
+}

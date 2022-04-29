@@ -1,0 +1,12 @@
+.home {
+    display: flex;
+    align-items: center;
+    grid-column-gap: 30px;
+    text-decoration: none;
+}
+.name {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 50px;
+    color: #005FA3;
+}
