@@ -5,6 +5,7 @@
     text-decoration: none;
 }
 .name {
+    font-family: 'Merriweather', serif;
     font-weight: 900;
     font-size: 36px;
     line-height: 50px;

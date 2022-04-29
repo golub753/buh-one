@@ -1,7 +1,7 @@
 import styles from './header.module.css';
 import settings from '../settings/settings.module.css';
-import Home from '../Home/Home';
-import HeaderRight from '../HeaderRight/HeaderRight';
+import Home from './Home/Home';
+import HeaderRight from './HeaderRight/HeaderRight';
 
 const Header = ({logo, links, menuItems}) => {
     return(
