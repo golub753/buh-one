@@ -1,4 +1,5 @@
 import Header from "./Header/Header";
+import Main from "./Main/Main";
 
 const info = [
   {
@@ -54,6 +55,8 @@ function App() {
           links={info}
           menuItems={menu}
       />
+      <Main />
+      <div className="test"/>
     </div>
   );
 }

@@ -1,0 +1,25 @@
+.btn_next {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: -120px;
+}
+.btn_prev {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: rotate(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    right: 60px;
+    bottom: -120px;
+}

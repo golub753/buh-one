@@ -1,6 +1,6 @@
 import styles from './home.module.css'
 
-const Home = (props) => {
+const HeaderHome = (props) => {
     return (
         <a href='/' className={styles.home}>
             <img src={props.logo} alt="" />
@@ -9,4 +9,4 @@ const Home = (props) => {
     )
 }
 
-export default Home;
+export default HeaderHome;

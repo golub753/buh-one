@@ -1,6 +1,6 @@
 import styles from './header.module.css';
 import settings from '../settings/settings.module.css';
-import Home from './Home/Home';
+import HeaderHome from './HeaderHome/HeaderHome';
 import HeaderRight from './HeaderRight/HeaderRight';
 
 const Header = ({logo, links, menuItems}) => {
@@ -8,7 +8,7 @@ const Header = ({logo, links, menuItems}) => {
         <div className={styles.header}>
             <div className={settings.container}>
                 <div className={styles.header_wrapper}>
-                    <Home 
+                    <HeaderHome 
                         logo={logo}
                         name='buhOne'
                     />
