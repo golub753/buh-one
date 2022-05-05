@@ -1,0 +1,6 @@
+.spec_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-auto-rows: 360px;
+    grid-gap: 30px;
+}

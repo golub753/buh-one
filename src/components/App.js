@@ -1,5 +1,6 @@
 import Header from "./Header/Header";
 import Main from "./Main/Main";
+import Spec from "./Spec/Spec";
 
 const info = [
   {
@@ -31,7 +32,7 @@ const menu = [
   },
   {
     name: 'Услуги',
-    link: '/'
+    link: '#services'
   },
   {
     name: 'Кейсы',
@@ -47,6 +48,33 @@ const menu = [
   }
 ]
 
+const specs = [
+  {
+    img: '/images/image/service-img.jpg',
+    text: 'Бухгалтерское обслуживание'
+  },
+  {
+    img: '/images/image/service-img.jpg',
+    text: 'Бухгалтерское обслуживание'
+  },
+  {
+    img: '/images/image/service-img.jpg',
+    text: 'Бухгалтерское обслуживание'
+  },
+  {
+    img: '/images/image/service-img.jpg',
+    text: 'Бухгалтерское обслуживание'
+  },
+  {
+    img: '/images/image/service-img.jpg',
+    text: 'Бухгалтерское обслуживание'
+  },
+  {
+    img: '/images/image/service-img.jpg',
+    text: 'Бухгалтерское обслуживание'
+  },
+]
+
 function App() {
   return ( 
     <div>
@@ -56,7 +84,11 @@ function App() {
           menuItems={menu}
       />
       <Main />
-      <div className="test"/>
+      <Spec specs={specs}
+        subtitle='Наши услуги'
+        title='Мы специализируемся'
+        anchor='services'
+        />
     </div>
   );
 }

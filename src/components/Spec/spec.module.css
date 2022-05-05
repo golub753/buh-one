@@ -1,0 +1,20 @@
+.spec {
+    background: #EBEBEB;
+    padding: 80px 0;
+}
+.subtitle {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #BDBDBD;
+    margin-bottom: 20px;
+}
+.title {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #333333;
+    margin-bottom: 60px;
+}
