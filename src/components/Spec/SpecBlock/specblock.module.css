@@ -9,9 +9,23 @@
     align-items: flex-end;
     padding: 0 0 45px 45px;
     cursor: pointer;
-    transition: .3s;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
-    transition: opacity 1s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
+.img::after {
+    position: absolute;
+    content: '';
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65));
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: background 1s ease;
+    z-index: -1;
+}
+.img:hover::after {
+    background: linear-gradient(0deg, rgba(0, 95, 163, 0.65), rgba(0, 95, 163, 0.65));
 }
