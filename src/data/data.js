@@ -97,6 +97,27 @@ const data = {
         linkText: 'Все кейсы',
         link: '#'
       },
+    ],
+
+    clients: [
+      {
+        img: '/images/image/microsoft.png'
+      },
+      {
+        img: '/images/image/microsoft.png'
+      },
+      {
+        img: '/images/image/microsoft.png'
+      },
+      {
+        img: '/images/image/microsoft.png'
+      },
+      {
+        img: '/images/image/microsoft.png'
+      },
+      {
+        img: '/images/image/microsoft.png'
+      },
     ]
   }
 

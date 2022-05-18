@@ -3,6 +3,7 @@ import Header from "./Header/Header";
 import Main from "./Main/Main";
 import Spec from "./Spec/Spec";
 import About from "./About/About";
+import Clients from './Clients/Clients';
 
 function App() {
   return ( 
@@ -24,6 +25,12 @@ function App() {
         title='Компания'
         titleBlue='ИвановПром'
         cases={data.cases}
+      />
+      <Clients
+        anchor='clients'
+        title='С нами работают'
+        subtitle='Наши клиенты'
+        clients={data.clients}
       />
     </div>
   );

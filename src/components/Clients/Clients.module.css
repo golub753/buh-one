@@ -1,3 +1,7 @@
+.clients {
+    padding: 80px 0 200px;
+    background: #EBEBEB;
+}
 .subtitle {
     font-weight: 900;
     font-size: 24px;
@@ -8,15 +12,7 @@
 .title {
     font-weight: 900;
     font-size: 48px;
-    line-height: 69px;
+    line-height: 49px;
     color: #333333;
-    margin-bottom: 60px;
-}
-.blue {
-    color: #005FA3;
-}
-.text {
-    font-size: 16px;
-    line-height: 25px;
-    color: #000000;
+    margin-bottom: 80px;
 }
