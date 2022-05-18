@@ -1,6 +1,7 @@
 import Header from "./Header/Header";
 import Main from "./Main/Main";
 import Spec from "./Spec/Spec";
+import About from "./About/About";
 
 const info = [
   {
@@ -40,7 +41,7 @@ const menu = [
   },
   {
     name: 'О компании',
-    link: '/'
+    link: '#about'
   },
   {
     name: 'Контакты',
@@ -75,6 +76,33 @@ const specs = [
   },
 ]
 
+const cases = [
+  {
+    number: 90,
+    text: 'Завершено крупных сделок',
+    linkText: 'Все кейсы',
+    link: '#'
+  },
+  {
+    number: 90,
+    text: 'Завершено крупных сделок',
+    linkText: 'Все кейсы',
+    link: '#'
+  },
+  {
+    number: 90,
+    text: 'Завершено крупных сделок',
+    linkText: 'Все кейсы',
+    link: '#'
+  },
+  {
+    number: 90,
+    text: 'Завершено крупных сделок',
+    linkText: 'Все кейсы',
+    link: '#'
+  },
+]
+
 function App() {
   return ( 
     <div>
@@ -89,6 +117,13 @@ function App() {
         title='Мы специализируемся'
         anchor='services'
         />
+      <About
+        anchor='about'
+        subtitle='О нас'
+        title='Компания'
+        titleBlue='ИвановПром'
+        cases={cases}
+      />
     </div>
   );
 }
