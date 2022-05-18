@@ -1,118 +1,19 @@
+import data from '../data/data';
 import Header from "./Header/Header";
 import Main from "./Main/Main";
 import Spec from "./Spec/Spec";
 import About from "./About/About";
-
-const info = [
-  {
-    logo: '/images/svg/phone.svg',
-    link: true,
-    text: '8 (111) 222-33-44'
-  },
-  {
-    logo: '/images/svg/clock.svg',
-    link: false,
-    text: 'Пн-Пт 10:00-18:00'
-  },
-  {
-    logo: '/images/svg/mail.svg',
-    link: true,
-    text: 'order@buhone.ru'
-  },
-  {
-    logo: '/images/svg/pin.svg',
-    link: false,
-    text: 'Невский пр. 130'
-  }
-]
-
-const menu = [
-  {
-    name: 'Главная',
-    link: '/'
-  },
-  {
-    name: 'Услуги',
-    link: '#services'
-  },
-  {
-    name: 'Кейсы',
-    link: '/'
-  },
-  {
-    name: 'О компании',
-    link: '#about'
-  },
-  {
-    name: 'Контакты',
-    link: '/'
-  }
-]
-
-const specs = [
-  {
-    img: '/images/image/service-img.jpg',
-    text: 'Бухгалтерское обслуживание'
-  },
-  {
-    img: '/images/image/service-img.jpg',
-    text: 'Бухгалтерское обслуживание'
-  },
-  {
-    img: '/images/image/service-img.jpg',
-    text: 'Бухгалтерское обслуживание'
-  },
-  {
-    img: '/images/image/service-img.jpg',
-    text: 'Бухгалтерское обслуживание'
-  },
-  {
-    img: '/images/image/service-img.jpg',
-    text: 'Бухгалтерское обслуживание'
-  },
-  {
-    img: '/images/image/service-img.jpg',
-    text: 'Бухгалтерское обслуживание'
-  },
-]
-
-const cases = [
-  {
-    number: 90,
-    text: 'Завершено крупных сделок',
-    linkText: 'Все кейсы',
-    link: '#'
-  },
-  {
-    number: 90,
-    text: 'Завершено крупных сделок',
-    linkText: 'Все кейсы',
-    link: '#'
-  },
-  {
-    number: 90,
-    text: 'Завершено крупных сделок',
-    linkText: 'Все кейсы',
-    link: '#'
-  },
-  {
-    number: 90,
-    text: 'Завершено крупных сделок',
-    linkText: 'Все кейсы',
-    link: '#'
-  },
-]
 
 function App() {
   return ( 
     <div>
       <Header 
           logo={'/images/image/logo.png'}
-          links={info}
-          menuItems={menu}
+          links={data.info}
+          menuItems={data.menu}
       />
       <Main />
-      <Spec specs={specs}
+      <Spec specs={data.specs}
         subtitle='Наши услуги'
         title='Мы специализируемся'
         anchor='services'
@@ -122,7 +23,7 @@ function App() {
         subtitle='О нас'
         title='Компания'
         titleBlue='ИвановПром'
-        cases={cases}
+        cases={data.cases}
       />
     </div>
   );
