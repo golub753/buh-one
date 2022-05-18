@@ -1,0 +1,61 @@
+.block {
+    background: #EBEBEB;
+    transition: .3s;
+}
+.block_hover {
+    background: #005FA3;
+    transition: .3s;
+}
+.wrapper {
+    padding: 30px 70px 40px 40px;
+    height: calc(100% - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.number {
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+    transition: .3s;
+}
+.number_hover {
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: .3s;
+}
+.text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    transition: .3s;
+}
+.text_hover {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    transition: .3s;
+}
+.link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #005FA3;
+    transition: .3s;
+}
+.link_hover {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    transition: .3s;
+}
