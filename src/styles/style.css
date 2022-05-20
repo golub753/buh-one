@@ -81,3 +81,41 @@ body {
     background-color: rgba(0, 95, 163, 0.2) !important;
     transition: .3s;
 }
+
+.reviews_dots {
+    bottom: -120px;
+    left: 0;
+    width: fit-content;
+    display: flex !important;
+    grid-column-gap: 40px;
+}
+
+.reviews_dots li {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.reviews_dots li button {
+    width: 10px;
+    height: 10px;
+    background: #005FA3;;
+    opacity: 0.4;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;  
+}
+
+.reviews_dots li button:before {
+    display: none; 
+}
+
+.reviews_dots li.slick-active button {
+    opacity: 1;
+}
+
+#reviews .slick-disabled {
+    background-color: rgba(0, 95, 163, 0.2) !important;
+    transition: .3s;
+}

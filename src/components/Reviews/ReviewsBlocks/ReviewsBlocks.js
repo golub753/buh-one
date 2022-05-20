@@ -1,7 +1,8 @@
-import styles from './ClientsSlider.module.css';
+import styles from './ReviewsBlocks.module.css';
 import Slider from "react-slick";
 import "../../../../node_modules/slick-carousel/slick/slick.css"; 
 import "../../../../node_modules/slick-carousel/slick/slick-theme.css";
+import ReviewsBlock from '../ReviewsBlock/ReviewsBlock';
 
 const SampleNextArrow = (props) => {
     return (<div className={`${props.className} ${styles.btn_next}`} onClick={props.onClick}>
@@ -23,26 +24,25 @@ const SamplePrevArrow = (props) => {
     </div>)
 }
 
-const ClientsSlider = ({clients}) => {
+const ReviewsBlocks = ({items}) => {
     const settings = {
         dots: true,
         infinite: false,
-        slidesToShow: 4,
-        dotsClass: 'slick-dots clients_dots',
+        slidesToShow: 1,
+        dotsClass: 'slick-dots reviews_dots',
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />
     }
-    return(
-        <Slider {...settings} className='clients_slider'>
-            {clients.map((item, i) => {
-                return(
-                    <div key={i} className={styles.slide}>
-                        <img src={item.img} alt={`slide № ${i}`} />
-                    </div>
-                )
-            })}
+    return ( 
+        <Slider {...settings}>
+            {items.map((item, id) => <ReviewsBlock 
+                                            key={id} 
+                                            name={item.name} 
+                                            photo={item.photo} 
+                                            job={item.job} 
+                                            text={item.text}/>)}
         </Slider>
-    )
+     );
 }
-
-export default ClientsSlider;
+ 
+export default ReviewsBlocks;

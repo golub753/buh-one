@@ -4,6 +4,7 @@ import Main from "./Main/Main";
 import Spec from "./Spec/Spec";
 import About from "./About/About";
 import Clients from './Clients/Clients';
+import Reviews from './Reviews/Reviews';
 
 function App() {
   return ( 
@@ -31,6 +32,12 @@ function App() {
         title='С нами работают'
         subtitle='Наши клиенты'
         clients={data.clients}
+      />
+      <Reviews
+        anchor='reviews'
+        title='Ваши благодарности'
+        subtitle='Отзывы'
+        reviews={data.reviews}
       />
     </div>
   );

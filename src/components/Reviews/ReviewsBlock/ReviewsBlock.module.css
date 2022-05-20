@@ -1,0 +1,13 @@
+.review {
+    background: #EBEBEB;
+}
+.review_wrapper {
+    padding: 45px 65px;
+}
+.review_text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 58px;
+}
