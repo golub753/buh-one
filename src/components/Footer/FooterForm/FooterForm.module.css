@@ -1,0 +1,27 @@
+.submit {
+    width: 270px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    background: #005FA3;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.inputs {
+    display: flex;
+    align-items: center;
+    grid-column-gap: 30px;
+    margin-bottom: 35px;
+}

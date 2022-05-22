@@ -1,0 +1,8 @@
+.footer {
+    padding: 60px 0;
+}
+.footer_wrapper {
+    display: grid;
+    grid-template-columns: 467px 1fr;
+    grid-column-gap: 100px;
+}

@@ -1,0 +1,21 @@
+.title {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+.description {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 79px;
+}
+.links {
+    display: flex;
+    align-items: center;
+    grid-column-gap: 40px;
+}

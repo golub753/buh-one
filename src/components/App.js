@@ -5,6 +5,7 @@ import Spec from "./Spec/Spec";
 import About from "./About/About";
 import Clients from './Clients/Clients';
 import Reviews from './Reviews/Reviews';
+import Footer from './Footer/Footer';
 
 function App() {
   return ( 
@@ -38,6 +39,13 @@ function App() {
         title='Ваши благодарности'
         subtitle='Отзывы'
         reviews={data.reviews}
+      />
+      <Footer
+        bg={'/images/image/main-screen.jpg'}
+        title={'Связь с нами'}
+        description={'У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!'}
+        number={'+7 (111) 222-33-44'}
+        mail={'order@bu-one.ru'}
       />
     </div>
   );
