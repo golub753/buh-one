@@ -16,7 +16,7 @@
 @media (max-width: 768px) {
     .header_links {
         position: absolute;
-        top: -100%;
+        top: -1000%;
         z-index: 2;
         opacity: 0;
         background-color: #F9F9F9;

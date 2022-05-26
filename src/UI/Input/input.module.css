@@ -20,6 +20,7 @@
     border: none;
     border-bottom: 1px solid #FFFFFF;
     padding-bottom: 15px;
+    width: 100%;
 }
 .input::placeholder {
     color: #BDBDBD;

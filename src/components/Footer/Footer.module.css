@@ -3,6 +3,7 @@
 }
 .footer_wrapper {
     display: grid;
-    grid-template-columns: 467px 1fr;
+    grid-template-columns: minmax(466px, 1fr) minmax(1px, 1fr);
+    justify-content: space-between;
     grid-column-gap: 100px;
 }

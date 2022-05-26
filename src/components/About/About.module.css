@@ -3,6 +3,13 @@
 }
 .wrapper {
     display: grid;
-    grid-template-columns: 445px 540px;
+    grid-template-columns: 445px minmax(1px, 540px);
+    grid-column-gap: 20px;
     justify-content: space-between;
+}
+@media (max-width: 1024px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
 }
