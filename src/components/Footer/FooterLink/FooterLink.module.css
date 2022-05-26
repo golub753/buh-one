@@ -8,3 +8,17 @@
     color: #FFFFFF;
     text-decoration: none;
 }
+@media (max-width: 1024px) {
+    .link {
+        width: 240px;
+        grid-column-gap: unset;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 560px) {
+    .link {
+        font-size: 16px;
+        line-height: 138%;
+        width: 180px;
+    }
+}

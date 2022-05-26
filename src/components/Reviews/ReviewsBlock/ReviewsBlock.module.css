@@ -11,3 +11,8 @@
     color: #000000;
     margin-bottom: 58px;
 }
+@media (max-width: 560px) {
+    .review_wrapper {
+        padding: 21px 22px;
+    }
+}

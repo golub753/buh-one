@@ -18,3 +18,15 @@
     color: #333333;
     margin-bottom: 60px;
 }
+@media (max-width: 768px) {
+    .spec {
+        padding: 30px 0 35px;
+    }
+}
+@media (max-width: 560px) {
+    .title {
+        font-size: 25px;
+        line-height: 144.55%;
+        margin-bottom: 40px;
+    }
+}

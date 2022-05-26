@@ -25,3 +25,18 @@
 .input::placeholder {
     color: #BDBDBD;
 }
+@media (max-width: 1024px) {
+    .wrapper {
+        width: 100%;
+    }
+}
+@media (max-width: 560px) {
+    .label {
+        font-size: 14px;
+        line-height: 138%;
+    }
+    .input {
+        font-size: 18px;
+        line-height: 138%;
+    }
+}

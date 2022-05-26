@@ -20,3 +20,10 @@
     line-height: 25px;
     color: #000000;
 }
+@media (max-width: 560px) {
+    .title {
+        font-size: 30px;
+        line-height: 144.55%;
+        margin-bottom: 20px;
+    }
+}

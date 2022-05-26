@@ -29,3 +29,16 @@
 .textarea::placeholder {
     color: #BDBDBD;
 }
+@media (max-width: 560px) {
+    .wrapper {
+        margin-bottom: 0;
+    }
+    .label {
+        font-size: 14px;
+        line-height: 138%;
+    }
+    .input {
+        font-size: 18px;
+        line-height: 138%;
+    }
+}

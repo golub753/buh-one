@@ -4,3 +4,8 @@
     grid-auto-rows: 255px;
     grid-gap: 30px;
 }
+@media (max-width: 560px) {
+    .blocks {
+        grid-template-columns: 1fr;
+    }
+}

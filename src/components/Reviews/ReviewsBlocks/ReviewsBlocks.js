@@ -31,7 +31,15 @@ const ReviewsBlocks = ({items}) => {
         slidesToShow: 1,
         dotsClass: 'slick-dots reviews_dots',
         nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />
+        prevArrow: <SamplePrevArrow />,
+        responsive: [
+            {
+                breakpoint: 769,
+                settings: {
+                    dots: false
+                }
+            }
+        ]
     }
     return ( 
         <Slider {...settings}>

@@ -119,8 +119,12 @@ body {
     background-color: rgba(0, 95, 163, 0.2) !important;
     transition: .3s;
 }
-@media (max-width: 768px) {
+.react-parallax-content {
+    width: 100% !important;
+}
+@media (max-width: 1024px) {
         .react-parallax-bgimage {
-            height: 100% !important;
+            height: 120% !important;
+            object-fit: cover;
         }
 }

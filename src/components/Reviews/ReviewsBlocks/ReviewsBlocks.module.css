@@ -35,3 +35,16 @@
 .btn_next::before, .btn_prev::before {
     display: none;
 }
+@media (max-width: 768px) {
+    .btn_next {
+        right: unset !important;
+        left: 50% !important;
+        bottom: -100px !important;
+    }
+    .btn_prev {
+        right: unset !important;
+        left: 50% !important;
+        transform: translateX(-100%) rotate(180deg) !important;
+        bottom: -100px !important;
+    }
+}

@@ -57,3 +57,26 @@
     z-index: -1;
     background: linear-gradient(0deg, rgba(0, 95, 163, 0.65), rgba(0, 95, 163, 0.65));
 }
+@media (max-width: 560px) {
+    .img {
+        padding: 0 0 45px 15px;
+    }
+    .text {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .img_hover {
+        display: flex;
+        align-items: flex-end;
+        padding: 0 0 45px 15px;
+        cursor: pointer;
+        transition: .3s;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: center !important;
+        transition: opacity 1s ease-in-out;
+        position: relative;
+        z-index: 1;
+        transition: .3s;
+    }
+}

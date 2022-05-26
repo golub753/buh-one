@@ -30,7 +30,29 @@ const ClientsSlider = ({clients}) => {
         slidesToShow: 4,
         dotsClass: 'slick-dots clients_dots',
         nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />
+        prevArrow: <SamplePrevArrow />,
+        responsive: [
+            {
+                breakpoint: 1025,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 769,
+                settings: {
+                    dots: false,
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 561,
+                settings: {
+                    dots: false,
+                    slidesToShow: 1,
+                }
+            },
+        ]
     }
     return(
         <Slider {...settings} className='clients_slider'>

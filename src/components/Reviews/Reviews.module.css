@@ -15,3 +15,16 @@
     color: #333333;
     margin-bottom: 60px;
 }
+
+@media (max-width: 768px) {
+    .reviews {
+        padding: 35px 0 150px;
+    }
+}
+@media (max-width: 560px) {
+    .title {
+        font-size: 28px;
+        line-height: 144.55%;
+        margin-bottom: 30px;
+    }
+}

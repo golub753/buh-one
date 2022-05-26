@@ -29,7 +29,15 @@ const MainSlider = ({ slides }) => {
         infinite: false,
         slidesToShow: 1,
         nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />
+        prevArrow: <SamplePrevArrow />,
+        responsive: [
+            {
+                breakpoint: 769,
+                settings: {
+                    dots: false,
+                }
+            }
+        ]
     }
     return (
         <Slider {...settings}>
