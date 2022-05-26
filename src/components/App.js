@@ -11,7 +11,7 @@ function App() {
   return ( 
     <div>
       <Header 
-          logo={'/images/image/logo.png'}
+          logo={'./images/image/logo.png'}
           links={data.info}
           menuItems={data.menu}
       />
@@ -41,7 +41,7 @@ function App() {
         reviews={data.reviews}
       />
       <Footer
-        bg={'/images/image/main-screen.jpg'}
+        bg={'./images/image/main-screen.jpg'}
         title={'Связь с нами'}
         description={'У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!'}
         number={'+7 (111) 222-33-44'}
