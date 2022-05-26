@@ -16,6 +16,9 @@ const Header = ({logo, links, menuItems}) => {
                         links={links}
                         items={menuItems}
                     />
+                    <div className={styles.burger}>
+                        <div className={styles.burger_line}></div>
+                    </div>
                 </div>
             </div>
         </div>

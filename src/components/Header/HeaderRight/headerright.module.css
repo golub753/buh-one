@@ -3,3 +3,8 @@
     flex-direction: column;
     grid-row-gap: 22px;
 }
+@media (max-width: 992px) {
+    .header_links {
+        grid-row-gap: 20px;
+    }
+}

@@ -6,3 +6,8 @@
     margin: 0;
     padding: 0;
 }
+@media (max-width: 992px) {
+    .ul {
+        grid-column-gap: 16px;
+    }
+}
