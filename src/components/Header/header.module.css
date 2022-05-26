@@ -10,7 +10,7 @@
 }
 .burger {
     width: 28px;
-    height: 20px;
+    height: 19px;
     display: none;
     flex-direction: column;
     align-items: center;
@@ -45,4 +45,21 @@
     height: 3px;
     background: #005FA3;
     border-radius: 5px;
+}
+@media (max-width: 871px) {
+    .header_wrapper {
+        flex-direction: column;
+        grid-row-gap: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .burger {
+        display: flex;
+    }
+    .header {
+        position: relative;
+    }
+    .header_wrapper {
+        flex-direction: row;
+    }
 }

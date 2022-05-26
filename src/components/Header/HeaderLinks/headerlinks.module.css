@@ -6,8 +6,19 @@
     margin: 0;
     padding: 0;
 }
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
     .ul {
         grid-column-gap: 16px;
+    }
+}
+@media (max-width: 871px) {
+    .ul {
+        grid-column-gap: unset;
+        justify-content: space-evenly;
+    }
+}
+@media (max-width: 768px) {
+    .ul {
+        display: none;
     }
 }

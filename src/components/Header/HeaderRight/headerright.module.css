@@ -3,8 +3,31 @@
     flex-direction: column;
     grid-row-gap: 22px;
 }
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
     .header_links {
         grid-row-gap: 20px;
+    }
+}
+@media (max-width: 871px) {
+    .header_links {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .header_links {
+        position: absolute;
+        top: -100%;
+        z-index: 2;
+        opacity: 0;
+        background-color: #F9F9F9;
+        left: 0;
+        right: 0;
+        padding: 20px 0;
+        flex-direction: column-reverse;
+        transition: .3s;
+    }
+    .header_links.active {
+        top: 100%;
+        opacity: 1;
     }
 }

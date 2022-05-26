@@ -11,3 +11,16 @@
     line-height: 50px;
     color: #005FA3;
 }
+@media (max-width: 560px) {
+    .home {
+        grid-column-gap: 11px;
+    }
+    .home img {
+        width: 25px;
+        height: 25px;
+    }
+    .name {
+        font-size: 22px;
+        line-height: 138.27%;
+    }
+}
